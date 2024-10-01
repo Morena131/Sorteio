@@ -1,0 +1,54 @@
+/* Como prometi, não vou comentar tudo, ok! */
+body {
+    font-family: Impact,  sans-serif;
+    background-color: #f2e8d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*vertical e horizontal */
+    margin: 0;
+}
+
+/* Aqui temos o contêiner do nosso formulário */
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid #d1bfa7;
+    border-radius: 5px;
+}
+
+/* Aqui temos o estilo do título (coloquei cores pastéis da palheta) adobe.com? */
+h1 {
+    color: #8d6e63;
+}
+
+/* Estilo dos rótulo (no código está como labels) */
+label {
+    color: #6d4c41;
+}
+
+/* Campos de entrada com os códigos de borda, e fundo */
+input[type="number"] {
+    border: 1px solid #bca09b;
+    border-radius: 4px;
+    background-color: #f5f0eb;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #a1887f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8d6e63;
+}
+/* Estilo para o resultado */
+.result {
+    color: #6d4c41;
+}
